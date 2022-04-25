@@ -18,6 +18,11 @@ pipeline {
         }
 
      }
+     stage('SeeniPacakge') {
+        steps{
+           echo "Build for SeeniPackage" 
+        }
+     }
 
 
   }
