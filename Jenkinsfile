@@ -23,7 +23,11 @@ pipeline {
            echo "Build for SeeniPackage" 
         }
      }
-
+     stage('LakshmiPackage'){
+       steps{
+          echo "Build fro Lakshmi Package"
+       } 
+     }
 
   }
 
